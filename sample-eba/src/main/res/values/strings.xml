@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">sample-eba</string>
+    <string name="privacyUrlPath">example.com</string>
+    <string name="eulaUrlPath">example.ru</string>
+    <string name="input_value_too_large">Input value should be in between 0 and 500</string>
+    <string name="search_query_hint">Search…</string>
+    <string name="bottom_nav_item_search">Search</string>
+    <string name="bottom_nav_item_about">About</string>
+    <string name="conf_policy">Confidentiality policy</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="nothing_found">Nothing found</string>
+</resources>
