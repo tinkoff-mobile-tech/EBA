@@ -5,11 +5,10 @@ ext {
     isRelease = project.hasProperty('release')
     ebaVersion = getVersionName(VERSION_NAME)
 
-    kotlinVersion = '1.3.50'
+    kotlinVersion = '1.3.71'
     rxJava = '2.2.12'
     rxAndroid = '2.1.1'
 }
-
-def getVersionName(version) {
+ def getVersionName(version) {
     return isRelease ? version : "${version}-SNAPSHOT"
 }
