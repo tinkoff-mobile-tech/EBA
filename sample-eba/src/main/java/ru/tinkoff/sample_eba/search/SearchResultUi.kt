@@ -1,6 +1,6 @@
 package ru.tinkoff.sample_eba.search
 
-import ru.tinkoff.sample_eba.R
+import ru.tinkoff.eba.R
 import androidx.recyclerview.widget.DiffUtil
 
 data class SearchResultUi(override val uid: String,

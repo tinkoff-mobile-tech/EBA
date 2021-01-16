@@ -4,7 +4,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.subjects.Subject
-import ru.tinkoff.sample_eba.R
+import ru.tinkoff.eba.R
 import ru.tinkoff.sample_eba.extensions.inflate
 import ru.tinkoff.sample_eba.search.SearchResultDiff
 import ru.tinkoff.sample_eba.search.ViewTyped

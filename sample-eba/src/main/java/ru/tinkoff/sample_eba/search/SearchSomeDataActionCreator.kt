@@ -11,6 +11,7 @@ class SearchSomeDataActionCreator(
     private val showList: ActionMapper<List<SearchResultUi>>,
     private val showEmptyStateAction: Action
 ) : ActionCreator<Observable<String>> {
+
     override fun invoke(searchEvent: Observable<String>): Observable<Action> {
         return searchEvent.map { search -> GetSomeDataList().filter { it.text.contains(search) } }
             .map { list ->

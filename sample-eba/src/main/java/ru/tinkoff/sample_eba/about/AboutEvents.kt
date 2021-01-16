@@ -13,4 +13,5 @@ interface AboutEvents : BaseEvents {
 class AboutEventsImpl(override val bindEvent: EventObservable,
                       override val openPolicyPrivacyEvent: EventObservable,
                       override val openProcessingPersonalDataEvent: EventObservable,
-                      override val unbindEvent: EventObservable) : AboutEvents
+                      override val unbindEvent: EventObservable
+) : AboutEvents

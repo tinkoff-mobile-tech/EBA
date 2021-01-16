@@ -4,8 +4,8 @@ import io.reactivex.Observable
 
 typealias Action = () -> Unit
 typealias ActionMapper<T> = (T) -> Action
-typealias ActionOnEvent = ActionCreator<EventObservable>
 typealias EventObservable = Observable<*>
+typealias ActionOnEvent = ActionCreator<EventObservable>
 
 interface ActionCreator<T> : (T) -> (Observable<Action>)
 
