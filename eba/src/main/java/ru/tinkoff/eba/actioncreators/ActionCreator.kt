@@ -7,7 +7,7 @@ typealias ActionMapper<T> = (T) -> Action
 typealias ActionOnEvent = ActionCreator<EventObservable>
 typealias EventObservable = Observable<*>
 
-interface ActionCreator<T> : (T) -> (Observable<Action>)
+fun interface ActionCreator<T> : (T) -> (Observable<Action>)
 
 val EmptyAction: Action = {}
 

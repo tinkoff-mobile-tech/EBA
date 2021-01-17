@@ -1,12 +1,12 @@
 ext {
     compileSdkVersion = 29
-    minSdkVersion = 14
+    minSdkVersion = 16
 
     isRelease = project.hasProperty('release')
     ebaVersion = getVersionName(VERSION_NAME)
 
-    kotlinVersion = '1.3.71'
-    rxJava = '2.2.12'
+    kotlinVersion = '1.4.21'
+    rxJava = '2.2.20'
     rxAndroid = '2.1.1'
 }
  def getVersionName(version) {

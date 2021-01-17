@@ -9,6 +9,7 @@ import ru.tinkoff.sample_eba.search.ViewTyped
 
 class SearchResultViewHolder(itemView: View,
                              private val clicks: Subject<ViewTyped>) : BaseViewHolder<SearchResultUi>(itemView) {
+
     private val title: TextView = itemView.findViewById(R.id.title)
 
     override fun bind(item: SearchResultUi) {

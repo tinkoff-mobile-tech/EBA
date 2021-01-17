@@ -8,7 +8,8 @@ import ru.tinkoff.eba.actioncreators.ActionOnEvent
 
 class AboutEventsBinder(private val setVersionName: ActionCreator<Observable<*>>,
                         private val openPolicyPrivacy: ActionOnEvent,
-                        private val openProcessingPersonalData: ActionOnEvent) :
+                        private val openProcessingPersonalData: ActionOnEvent
+) :
         BaseEventsBinder<AboutEvents>() {
 
     override fun bindInternal(events: AboutEvents): Observable<Action> {

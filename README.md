@@ -30,7 +30,6 @@ implementation 'ru.tinkoff.eba:EBA:1.0.0'
 
 <li> <a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
 <li> <a href="https://github.com/JakeWharton/RxBinding">RxBinding</a></li>
-<li> <a href="https://github.com/trello/navi">Navi</a></li>
 
 # Ссылка на статью
 <a href="https://habr.com/ru/company/tinkoff/blog/474612/">Архитектура EBA aka реактивность на всю катушку</a>
